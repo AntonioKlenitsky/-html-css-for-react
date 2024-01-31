@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AntonioKlenitsky/-html-css-for-react/static/css/main.31d6cfe0.css",
+    "main.js": "/AntonioKlenitsky/-html-css-for-react/static/js/main.5d2a3e1e.js",
+    "static/js/787.e8d0657e.chunk.js": "/AntonioKlenitsky/-html-css-for-react/static/js/787.e8d0657e.chunk.js",
+    "static/media/image1.svg": "/AntonioKlenitsky/-html-css-for-react/static/media/image1.de6ff603deaed3a7d745cff266741a53.svg",
+    "index.html": "/AntonioKlenitsky/-html-css-for-react/index.html",
+    "main.5d2a3e1e.js.map": "/AntonioKlenitsky/-html-css-for-react/static/js/main.5d2a3e1e.js.map",
+    "787.e8d0657e.chunk.js.map": "/AntonioKlenitsky/-html-css-for-react/static/js/787.e8d0657e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.5d2a3e1e.js"
+  ]
+}
