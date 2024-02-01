@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TextSection = styled.section`
+export const Text = styled.p`
     margin-top: 20px;
     margin-bottom: 20px;
     color: #ABB3BA;
