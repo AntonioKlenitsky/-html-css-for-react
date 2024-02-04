@@ -1,0 +1,41 @@
+<svg width="33.596004" height="33.596008" viewBox="0 0 33.596 33.596" fill="none" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="bookSvg">
+        <desc>
+            Created with Pixso.
+        </desc>
+        <defs>
+            <filter id="filter_13_3282_dd" x="0.199463" y="2.799561" width="33.197002" height="35.996674"
+                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                               result="hardAlpha"/>
+                <feOffset dx="0" dy="4"/>
+                <feGaussianBlur stdDeviation="1.33333"/>
+                <feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+            </filter>
+            <clipPath id="clip13_3280">
+                <rect id="Frame" width="33.596004" height="33.596004" fill="white" fill-opacity="0"/>
+            </clipPath>
+        </defs>
+        <rect id="Frame" width="33.596004" height="33.596004" fill="#FFFFFF" fill-opacity="0"/>
+        <g clip-path="url(#clip13_3280)">
+            <g filter="url(#filter_13_3282_dd)">
+                <path id="Vector"
+                      d="M4.19946 25.8968L4.19946 6.99905C4.19946 5.88528 4.64191 4.81712 5.42947 4.02957C6.21703 3.242 7.28519 2.79956 8.39896 2.79956L27.9966 2.79956C28.3679 2.79956 28.7239 2.94704 28.9865 3.20956C29.249 3.47208 29.3965 3.82814 29.3965 4.19939L29.3965 29.3964C29.3965 29.7677 29.249 30.1237 28.9865 30.3862C28.7239 30.6487 28.3679 30.7962 27.9966 30.7962L9.09888 30.7962C7.79947 30.7962 6.55329 30.28 5.63447 29.3612C4.71565 28.4424 4.19946 27.1962 4.19946 25.8968ZM26.5968 27.9966L26.5968 23.7971L9.09888 23.7971C8.54199 23.7971 8.00791 24.0183 7.61413 24.4121C7.22035 24.8058 6.99913 25.3399 6.99913 25.8968C6.99913 26.4537 7.22035 26.9878 7.61413 27.3816C8.00791 27.7753 8.54199 27.9966 9.09888 27.9966L26.5968 27.9966ZM6.99913 21.4691C7.65522 21.1576 8.37258 20.9964 9.09888 20.9974L26.5968 20.9974L26.5968 5.59923L8.39896 5.59923C8.02771 5.59923 7.67165 5.7467 7.40913 6.00923C7.14661 6.27174 6.99913 6.62781 6.99913 6.99905L6.99913 21.4691Z"
+                      fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            </g>
+        </g>
+    </g>
+    <g id="burgerSvg">
+        <desc>
+            Created with Pixso.
+        </desc>
+        <defs/>
+        <path id="Vector 9" d="M1 1L17.3257 1M3.72095 6.78198L17.3257 6.78198" stroke="#FFFFFF"
+              stroke-opacity="1.000000" stroke-width="2.000000"/>
+    </g>
+</svg>
