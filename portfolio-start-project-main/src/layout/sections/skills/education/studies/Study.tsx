@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {Icon} from "../../../../../components/icon/Icon";
+import {FlexWrapper} from "../../../../../components/FlexWrapper";
 
 
 
@@ -13,12 +14,16 @@ type StudyPropsType = {
 export const Study = (props:StudyPropsType) => {
     return (
         <StyleStudy>
-            <StyledIcon>
-                <Icon iconId={'bookSvg'}/>
-            </StyledIcon>
-            <EstablishmentName>{props.establishmentName}</EstablishmentName>
-            <DirectionName>{props.directionName}</DirectionName>
-            <YearOfEnding>{props.yearOfEnding}</YearOfEnding>
+            <FlexWrapper>
+                <StyledIcon>
+                    <Icon iconId={'bookSvg'}/>
+                </StyledIcon>
+                <StyleInfo>
+                    <EstablishmentName>{props.establishmentName}</EstablishmentName>
+                    <DirectionName>{props.directionName}</DirectionName>
+                    <YearOfEnding>{props.yearOfEnding}</YearOfEnding>
+                </StyleInfo>
+            </FlexWrapper>
         </StyleStudy>
     );
 };
@@ -33,6 +38,8 @@ const StyledIcon = styled.div`
     justify-content: center;
     align-items: center;
 
+`
+const StyleInfo=styled.div`
 `
 const EstablishmentName =styled.div`
     `

@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import {Card} from "./components/card/Card";
+import {Cards} from "./components/cards/Cards";
+
 
 function App() {
     return (
         <section>
 
-            <Card title="Hello" text="Hellloooooo"/>
+           <Cards/>
 
         </section>
     );

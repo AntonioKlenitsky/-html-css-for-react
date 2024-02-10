@@ -11,6 +11,10 @@ export const WorkImage = (props:WorkPropsType) => {
 };
 
 const Image = styled.img`
-    width: 602px;
     min-height: 452px;
+    max-width: 602px;
+    margin-bottom: 15px;
+    width: 49%;
+    display: flex;
+    
 `

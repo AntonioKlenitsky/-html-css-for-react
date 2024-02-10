@@ -20,8 +20,10 @@ export const Menu = () => {
 };
 
 const StyledMenu = styled.nav`
+    font-size: 20px;
+    padding-right: 50px;
     ul {
         display: flex;
-        gap: 30px;
+        gap: 55px;
     }
 `
