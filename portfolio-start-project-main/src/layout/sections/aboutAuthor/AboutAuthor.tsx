@@ -1,6 +1,6 @@
 import React from 'react';
 import {FlexWrapper} from "../../../components/FlexWrapper";
-import photo from '../../../assets/images/unsplash_OhKElOkQ3RE (1).webp'
+import photo from '../../../assets/images/rectangle.jpg'
 import styled from "styled-components";
 import {Container} from "../../../components/Container";
 export const AboutAuthor = () => {
@@ -42,8 +42,8 @@ const StylePhoto = styled.div`
     width: 50%;
 `
 const Photo = styled.img`
-    max-width:470px;
-    max-height:518px;
+    width:470px;
+    height:518px;
 `
 const StyleInfo = styled.div`
     max-width: 521px;

@@ -12,8 +12,9 @@ export const Works = () => {
     return (
         <StyledWork>
             <Container>
+                <TitleWork> My Work Experiance   </TitleWork>
                 <FlexWrapper justify={"space-between"} wrap={"wrap"} >
-                    <WorkImage src={Image1}/>
+                    <WorkImage src={Image1} companyName={"Company Name"} jobTitle={"Sr.Manager"} jobTime={"2016-2022"}/>
                     <WorkImage src={Image2}/>
                     <WorkImage src={Image3}/>
                     <WorkImage src={Image4}/>
@@ -27,15 +28,15 @@ export const Works = () => {
 const StyledWork = styled.section`
     padding: 85px 87px 165px 65px;
     border-top: 2px solid #626262;
-    ::before {
-        content: "My Work Experiance      ";
+`
+const TitleWork=styled.span`
         font-size: 57px;
         font-weight: 600;
         letter-spacing: 0.05em;
         position: relative;
         top: -125px;
-        left: 124px;
+        left: -10px;
         background: rgb(31, 31, 31);
         white-space: break-spaces;
-    }
-`
+    
+    `

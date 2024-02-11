@@ -11,19 +11,23 @@ export const Education = () => {
     return (
         <SectionEducation>
             <Container>
-                <FlexWrapper justify={"space-between"} align={"flex-start"} >
+                <FlexWrapper gap={"230px"} >
                     <StyleEducation>
                         <StyleTitle>Language</StyleTitle>
                         <Language languageName={"English"} quality={"Fluent"}></Language>
                         <Language languageName={"French"} quality={"Good"}></Language>
                     </StyleEducation>
-                    <StyleStudies>
-                        <StyleTitle>Studies</StyleTitle>
-                        <Study establishmentName={"Christ University"} directionName={"BBA"}
-                               yearOfEnding={"2019"}></Study>
-                        <Study establishmentName={"Christ University"} directionName={"PUC"}
-                               yearOfEnding={"2016"}></Study>
-                    </StyleStudies>
+                    <FlexWrapper align={"left"} >
+                        <StyleStudies>
+                            <StyleTitle>Studies</StyleTitle>
+                            <Study establishmentName={"Christ University"}
+                                   directionName={"BBA"}
+                                   yearOfEnding={"2019"}/>
+                            <Study establishmentName={"Christ University"}
+                                   directionName={"PUC"}
+                                   yearOfEnding={"2016"}/>
+                        </StyleStudies>
+                    </FlexWrapper>
                 </FlexWrapper>
             </Container>
         </SectionEducation>
@@ -31,13 +35,11 @@ export const Education = () => {
 };
 
 const SectionEducation = styled.div`
-    margin-bottom:120px;
-
+    padding-bottom: 120px;
 `
 const StyleEducation = styled.div`
-    max-width: 50%;
+    width: 490px;
 `
 const StyleStudies = styled.div`
-    max-width: 50%;
 
 `

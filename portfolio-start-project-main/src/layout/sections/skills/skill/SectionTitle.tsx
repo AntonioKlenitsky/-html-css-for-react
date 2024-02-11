@@ -7,7 +7,9 @@ export const SectionTitle = styled.h2`
     letter-spacing: 0.05em;
     display: table;
     position: relative;
-    ::before {
+    padding-top: 56px;
+    padding-bottom: 31px;
+    &::before {
         border-top: 2px solid rgb(255, 255, 255);
         content: "";
         position: absolute;
