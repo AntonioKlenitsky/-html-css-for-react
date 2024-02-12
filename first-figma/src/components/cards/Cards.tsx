@@ -1,6 +1,9 @@
 import React from 'react';
 import {Card} from "../card/Card";
 import image1 from "../../assets/images/image1.svg";
+import image2 from "../../assets/images/image1.svg";
+import image3 from "../../assets/images/image1.svg";
+
 
 const cardData = [
     {
@@ -9,12 +12,12 @@ const cardData = [
         text: "Hi"
     },
     {
-        imgSrc: image1,
+        imgSrc: image2,
         title: "Hello 2",
         text: "Hi 2"
     },
     {
-        imgSrc: image1,
+        imgSrc: image3,
         title: "Hello 3",
         text: "Hi 3"
     }
