@@ -1,8 +1,8 @@
 import React from 'react';
 import {Card} from "../card/Card";
 import image1 from "../../assets/images/image1.svg";
-import image2 from "../../assets/images/image1.svg";
-import image3 from "../../assets/images/image1.svg";
+import image2 from "../../assets/images/LandscapeColor.jpg";
+import image3 from "../../assets/images/983703508.jpg";
 
 
 const cardData = [
