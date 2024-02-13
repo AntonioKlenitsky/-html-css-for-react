@@ -42,8 +42,8 @@ const StylePhoto = styled.div`
     width: 50%;
 `
 const Photo = styled.img`
-    width:470px;
-    height:518px;
+    max-width:470px;
+    max-height:500px;
 `
 const StyleInfo = styled.div`
     max-width: 521px;

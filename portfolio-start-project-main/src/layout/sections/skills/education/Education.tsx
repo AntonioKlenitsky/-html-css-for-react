@@ -14,8 +14,8 @@ export const Education = () => {
                 <FlexWrapper gap={"230px"} >
                     <StyleEducation>
                         <StyleTitle>Language</StyleTitle>
-                        <Language languageName={"English"} quality={"Fluent"}></Language>
-                        <Language languageName={"French"} quality={"Good"}></Language>
+                        <Language languageName={"English"} quality={"Professional"}></Language>
+                        <Language languageName={"French"} quality={"Advanced"}></Language>
                     </StyleEducation>
                     <FlexWrapper align={"left"} >
                         <StyleStudies>

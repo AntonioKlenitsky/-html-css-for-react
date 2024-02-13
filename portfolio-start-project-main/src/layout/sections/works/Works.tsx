@@ -14,10 +14,10 @@ export const Works = () => {
             <Container>
                 <TitleWork> My Work Experiance   </TitleWork>
                 <FlexWrapper justify={"space-between"} wrap={"wrap"} >
-                    <WorkImage src={Image1} companyName={"Company Name"} jobTitle={"Sr.Manager"} jobTime={"2016-2022"}/>
-                    <WorkImage src={Image2}/>
-                    <WorkImage src={Image3}/>
-                    <WorkImage src={Image4}/>
+                    <WorkImage id={"1"} src={Image1} companyName={"Company Name"} jobTitle={"Sr.Manager"} jobTime={"2016-2022"}/>
+                    <WorkImage id={"2"} src={Image2} companyName={"Company "} jobTitle={"Manager"} jobTime={"2016-2022"}/>
+                    <WorkImage id={"3"} src={Image3} companyName={"Company Name"} jobTitle={"Sr.Manager"} jobTime={"2016-2022"}/>
+                    <WorkImage id={"4"} src={Image4} companyName={"Company Name"} jobTitle={"Sr.Manager"} jobTime={"2016-2022"}/>
                 </FlexWrapper>
             </Container>
         </StyledWork>
@@ -38,5 +38,4 @@ const TitleWork=styled.span`
         left: -10px;
         background: rgb(31, 31, 31);
         white-space: break-spaces;
-    
     `

@@ -13,10 +13,10 @@ export const Skills = () => {
                     My Skills
                 </SectionTitle>
                 <FlexWrapper gap={"80px"}>
-                    <Skill skillId={"1"} knowledgeLevel={4.0} knowledgeName={"Adobe PhotoShop"}></Skill>
-                    <Skill skillId={"2"} knowledgeLevel={4.8} knowledgeName={"Microsoft Excel"}></Skill>
-                    <Skill skillId={"3"} knowledgeLevel={4.0} knowledgeName={"Adobe PhotoShop"}></Skill>
-                    <Skill skillId={"4"} knowledgeLevel={4.8} knowledgeName={"Microsoft Excel"}></Skill>
+                    <Skill skillId={"1"} knowledgeLevel={4.3} knowledgeName={"Adobe PhotoShop"}></Skill>
+                    <Skill skillId={"2"} knowledgeLevel={3.0} knowledgeName={"Microsoft Excel"}></Skill>
+                    <Skill skillId={"3"} knowledgeLevel={4.1} knowledgeName={"Javascript"}></Skill>
+                    <Skill skillId={"4"} knowledgeLevel={4.7} knowledgeName={"React"}></Skill>
                 </FlexWrapper>
             </Container>
         </SectionSkills>

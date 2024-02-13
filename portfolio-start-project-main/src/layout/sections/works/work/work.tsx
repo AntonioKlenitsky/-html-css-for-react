@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 type WorkPropsType = {
+    id: string
     src:string
     companyName?:string
     jobTitle?:string
@@ -9,47 +10,57 @@ type WorkPropsType = {
 }
 export const WorkImage = (props:WorkPropsType) => {
     return (
-        <>
+        <WorkBlock>
             <Image src={props.src}/>
-            {/*<Name>{props.companyName}</Name>*/}
-            {/*<Jobtitle>{props.jobTitle}</Jobtitle>*/}
-            {/*<Jobtime>{props.jobTime}</Jobtime>*/}
-        </>
+            <Name>{props.companyName}</Name>
+            <Subtitle>{props.jobTitle}<br/>{props.jobTime}</Subtitle>
+        </WorkBlock>
     );
 };
+
+const WorkBlock = styled.div`
+    
+`
+
 
 const Image = styled.img`
     min-height: 452px;
     max-width: 602px;
     margin-bottom: 15px;
-    width: 49%;
-    display: flex;
+    object-fit: cover;
     &:hover {
-      background: black;
-        opacity: 60%;
-        z-index: 1;
+        background: black;
+        opacity: 40%;
         transition: 1s;
-    }
-    &:hover {
-        content: '';
-        font-size: 26px;
-        font-weight: 600;
-        letter-spacing: 0.05em;
-        color: white;
     }
 `
 const Name =styled.div`
-    margin-bottom: 12px;
-    word-break: break-all;
-    overflow:hidden;         // this hides the overflowing text
-    white-space: nowrap
-    
-    `
-const Jobtitle =styled.div`
-    overflow: hidden;
-
+    margin-top: -90px;
+    position: relative;
+    top: -55px;
+    right: -65px;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: white;
+    z-index: -1;
+    &:hover {
+        position: absolute;
+        z-index: 1;
+    }
 `
-const Jobtime =styled.div`
-    overflow: hidden;
+const Subtitle =styled.div`
+    position: relative;
+    top: -55px;
+    right: -65px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: white;
+    z-index: -1;
+    &:hover {
+        position: absolute;
+        z-index: 1;
+    }
 
 `

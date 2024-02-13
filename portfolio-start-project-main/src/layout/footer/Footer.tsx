@@ -25,6 +25,7 @@ const StyledFooter =styled.footer`
         font-weight: 400;
         letter-spacing: 0.05em;
         color: rgb(158, 158, 158);
+        text-transform: capitalize;
     }
     `
 const Title = styled.h2`
