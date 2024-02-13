@@ -14,18 +14,18 @@ export const Education = () => {
                 <FlexWrapper gap={"230px"} >
                     <StyleEducation>
                         <StyleTitle>Language</StyleTitle>
-                        <Language languageName={"English"} quality={"Professional"}></Language>
-                        <Language languageName={"French"} quality={"Advanced"}></Language>
+                        <Language languageName={"English"} quality={"Advanced"}></Language>
+                        <Language languageName={"German"} quality={"Proficient"}></Language>
                     </StyleEducation>
                     <FlexWrapper align={"left"} >
                         <StyleStudies>
                             <StyleTitle>Studies</StyleTitle>
-                            <Study establishmentName={"Christ University"}
-                                   directionName={"BBA"}
-                                   yearOfEnding={"2019"}/>
-                            <Study establishmentName={"Christ University"}
-                                   directionName={"PUC"}
-                                   yearOfEnding={"2016"}/>
+                            <Study establishmentName={"BSEU"}
+                                   directionName={"Finance"}
+                                   yearOfEnding={"2025"}/>
+                            <Study establishmentName={"IT-INCUBATOR"}
+                                   directionName={"Frontend"}
+                                   yearOfEnding={"2025"}/>
                         </StyleStudies>
                     </FlexWrapper>
                 </FlexWrapper>

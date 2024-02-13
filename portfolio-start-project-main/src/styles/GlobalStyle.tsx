@@ -23,10 +23,10 @@ export const GlobalStyle = createGlobalStyle `
 
     a {
         text-decoration: none;
-        color: rgb(152, 152, 152);
-        :hover {
-            color: #FFFFFF;
-        }
+        color: #FFFFFF ;
+        //:hover {
+        //    color: rgb(31, 31, 31);
+        //}
 
     }
 

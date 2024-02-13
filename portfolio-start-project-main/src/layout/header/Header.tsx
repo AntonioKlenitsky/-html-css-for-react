@@ -10,7 +10,7 @@ export const Header = () => {
             <Container>
                 <FlexWrapper justify={'space-between'}   >
                     <StyledLogo>
-                    Nakul Kumar
+                    Anton Klenitsky
                     </StyledLogo>
                     <Menu></Menu>
                 </FlexWrapper>

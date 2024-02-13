@@ -28,6 +28,7 @@ const Image = styled.img`
     max-width: 602px;
     margin-bottom: 15px;
     object-fit: cover;
+    transition: 1s;
     &:hover {
         background: black;
         opacity: 40%;

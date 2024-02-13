@@ -21,7 +21,7 @@ export const Menu = () => {
 
 const StyledMenu = styled.nav`
     font-size: 20px;
-    padding-right: 50px;
+    padding-right: 100px;
     ul {
         display: flex;
         gap: 55px;

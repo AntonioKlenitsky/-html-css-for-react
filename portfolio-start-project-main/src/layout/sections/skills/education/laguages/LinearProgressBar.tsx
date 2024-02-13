@@ -8,13 +8,13 @@ export const LinearProgressBar = ({ text }: LinearProgressBarPropsType) => {
 
     let percentage = 0;
 
-    if (text.includes('Professional')) {
+    if (text.includes('Proficient')) {
         percentage = 100;
     } else if (text.includes('Advanced')) {
         percentage = 80;
-    } else if (text.includes('Above average')) {
+    } else if (text.includes('Upper-Intermediate')) {
         percentage = 60;
-    } else if (text.includes('Average')) {
+    } else if (text.includes('Intermediate')) {
         percentage = 40;
     }
     const [progress, setProgress] = useState(0);

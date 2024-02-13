@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../../../assets/images/unsplash_OhKElOkQ3RE (1).webp'
+import photo from '../../../assets/images/anton/logo1.jpg'
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {DownloadButton} from "../../../components/button/StyledButton";
@@ -13,8 +13,8 @@ export const Main = () => {
                 <FlexWrapper align={"center"} justify={"space-between"}>
                     <Represent>
                         <MainTitle>Welcome </MainTitle>
-                        <NamePerson>I’m Nakul<br/> Kumar</NamePerson>
-                        <NameFunction>CEO , UXM Creative Studio</NameFunction>
+                        <NamePerson>I’m Anton<br/> Klenitsky</NamePerson>
+                        <NameFunction>Frontend Developer</NameFunction>
                         <DownloadButton>Download CV</DownloadButton>
                     </Represent>
                     <Photo src={photo} alt={"oops"}/>
@@ -50,11 +50,13 @@ const NameFunction = styled.h1`
     padding-bottom: 35px;
 `
 const Photo = styled.img`
+    max-width: 566px;
+    max-height: 808px;
     object-fit: cover;
     justify-content: flex-start;
     position: relative;
-    bottom: 150px;
-    padding-right: 90px;
+    bottom: 110px;
+    padding-right: 150px;
     z-index: -1;
 `
 

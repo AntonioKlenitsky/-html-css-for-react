@@ -1,13 +1,13 @@
 import React from 'react';
 import {FlexWrapper} from "../../../components/FlexWrapper";
-import photo from '../../../assets/images/rectangle.jpg'
+import photo from '../../../assets/images/anton/logo1.jpg'
 import styled from "styled-components";
 import {Container} from "../../../components/Container";
 export const AboutAuthor = () => {
     return (
         <SectionAboutAuthor>
             <Container>
-                <FlexWrapper align={"left"}  >
+                <FlexWrapper align={"center"} justify={"space-around"}  >
                     <StylePhoto>
                         <Photo src={photo} alt={"oops"}/>
                     </StylePhoto>
@@ -40,6 +40,7 @@ background-color: rgb(43, 42, 42);
 `
 const StylePhoto = styled.div`
     width: 50%;
+    padding-left: 100px;
 `
 const Photo = styled.img`
     max-width:470px;

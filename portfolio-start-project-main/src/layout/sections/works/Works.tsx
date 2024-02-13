@@ -2,10 +2,10 @@ import React from 'react';
 import styled from "styled-components";
 import {WorkImage} from "./work/work";
 import {FlexWrapper} from "../../../components/FlexWrapper";
-import Image1 from "../../../assets/images/unsplash_glRqyWJgUeY.png";
-import Image2 from "../../../assets/images/unsplash_SpVHcbuKi6E.png";
-import Image3 from "../../../assets/images/unsplash_iGheu30xAi8.png";
-import Image4 from "../../../assets/images/unsplash_i_xVfNtQjwI.png";
+import Image1 from "../../../assets/images/anton/army.jpg";
+import Image2 from "../../../assets/images/anton/bsb12.jpeg";
+import Image3 from "../../../assets/images/anton/photosil1.jpg";
+import Image4 from "../../../assets/images/anton/sil3.jpg";
 import {Container} from "../../../components/Container";
 
 export const Works = () => {
@@ -14,10 +14,10 @@ export const Works = () => {
             <Container>
                 <TitleWork> My Work Experiance   </TitleWork>
                 <FlexWrapper justify={"space-between"} wrap={"wrap"} >
-                    <WorkImage id={"1"} src={Image1} companyName={"Company Name"} jobTitle={"Sr.Manager"} jobTime={"2016-2022"}/>
-                    <WorkImage id={"2"} src={Image2} companyName={"Company "} jobTitle={"Manager"} jobTime={"2016-2022"}/>
-                    <WorkImage id={"3"} src={Image3} companyName={"Company Name"} jobTitle={"Sr.Manager"} jobTime={"2016-2022"}/>
-                    <WorkImage id={"4"} src={Image4} companyName={"Company Name"} jobTitle={"Sr.Manager"} jobTime={"2016-2022"}/>
+                    <WorkImage id={"1"} src={Image1} companyName={"Armed forces"} jobTitle={"Gunner"} jobTime={"2019-2021"}/>
+                    <WorkImage id={"2"} src={Image2} companyName={"BSB Bank"} jobTitle={"Junior Specialist"} jobTime={"2021"}/>
+                    <WorkImage id={"3"} src={Image3} companyName={"StroyInvestLeasing LLC"} jobTitle={"Specialist"} jobTime={"2021-2022"}/>
+                    <WorkImage id={"4"} src={Image4} companyName={"StroyInvestLeasing LLC"} jobTitle={"Lead Specialist"} jobTime={"2022-2023"}/>
                 </FlexWrapper>
             </Container>
         </StyledWork>
