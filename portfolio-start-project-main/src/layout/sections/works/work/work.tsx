@@ -21,8 +21,6 @@ export const WorkImage = (props:WorkPropsType) => {
 const WorkBlock = styled.div`
     
 `
-
-
 const Image = styled.img`
     min-height: 452px;
     max-width: 602px;

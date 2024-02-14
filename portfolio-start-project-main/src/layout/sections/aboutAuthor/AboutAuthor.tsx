@@ -36,6 +36,7 @@ export const AboutAuthor = () => {
 const SectionAboutAuthor = styled.section`
 background-color: rgb(43, 42, 42);
     padding: 65px 89px 59px 115px;
+    width: 100%;
     
 `
 const StylePhoto = styled.div`

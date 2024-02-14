@@ -20,7 +20,7 @@ export const Menu = () => {
 };
 
 const StyledMenu = styled.nav`
-    font-size: 20px;
+    font-size: 21px;
     padding-right: 100px;
     ul {
         display: flex;

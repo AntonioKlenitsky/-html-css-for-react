@@ -11,13 +11,13 @@ import {Footer} from "./layout/footer/Footer";
 function App() {
     return (
         <div className="App">
-            <Header></Header>
-            <Main></Main>
-            <AboutAuthor></AboutAuthor>
-            <Skills></Skills>
-            <Education></Education>
-            <Works></Works>
-            <Footer></Footer>
+            <Header/>
+            <Main/>
+            <AboutAuthor/>
+            <Skills/>
+            <Education/>
+            <Works/>
+            <Footer/>
         </div>
     );
 }

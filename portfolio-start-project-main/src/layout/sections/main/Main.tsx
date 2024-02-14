@@ -56,7 +56,7 @@ const Photo = styled.img`
     justify-content: flex-start;
     position: relative;
     bottom: 110px;
-    padding-right: 150px;
+    padding-right: 100px;
     z-index: -1;
 `
 

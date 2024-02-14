@@ -34,17 +34,17 @@ export const LinearProgressBar = ({ text }: LinearProgressBarPropsType) => {
                     transition: "all 1s"
                 }}
             >
-                <div style={{
-                    fontSize: "15px",
-                    fontWeight: "600",
-                    letterSpacing: "0.05em",
-                    fontFamily:"Poppins, sans-serif",
-                    display:"flex",
-                    justifyContent:"flex-end",
-                    position: "relative",
-                    top: "-22px",
+                {/*<div style={{*/}
+                {/*    fontSize: "15px",*/}
+                {/*    fontWeight: "600",*/}
+                {/*    letterSpacing: "0.05em",*/}
+                {/*    fontFamily:"Poppins, sans-serif",*/}
+                {/*    display:"flex",*/}
+                {/*    justifyContent:"flex-end",*/}
+                {/*    position: "relative",*/}
+                {/*    top: "-22px",*/}
 
-                }}><>{`${text}`}</></div>
+                {/*}}>{`${text}`}</div>*/}
             </div>
         </div>
     );
