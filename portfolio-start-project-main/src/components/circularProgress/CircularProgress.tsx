@@ -38,7 +38,9 @@ export const CircularProgress = ({ size, strokeWidth, percentage}: CircularProgr
                 transform={`rotate(0 ${parseInt(size) / 2} ${parseInt(size) / 2})`}
                 strokeDasharray={`${dash}, ${circumference - dash}`}
 
-                style={{transition: "all 2s"}}
+                style={{
+                    transition: "all 15s",
+            }}
 
             />
             <defs>
