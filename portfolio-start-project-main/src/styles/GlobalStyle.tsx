@@ -25,9 +25,9 @@ export const GlobalStyle = createGlobalStyle `
     a {
         text-decoration: none;
         color: #FFFFFF ;
-        //:hover {
-        //    color: rgb(31, 31, 31);
-        //}
+        :hover {
+            color: black;
+        }
 
     }
 

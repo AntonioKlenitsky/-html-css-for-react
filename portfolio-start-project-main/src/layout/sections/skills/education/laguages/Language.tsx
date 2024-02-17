@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {FlexWrapper} from "../../../../../components/FlexWrapper";
-import {LinearProgressBar} from "./LinearProgressBar";
+import {LinearProgressBar} from "../../../../../components/linearProgress/LinearProgressBar";
 
 
 
@@ -12,24 +12,38 @@ type LanguagePropsType = {
 export const Language = (props:LanguagePropsType) => {
     return (
         <StyleLanguage>
-            <FlexWrapper justify={"space-between"} align={"end"}>
-                <LanguageName>{props.languageName}</LanguageName>
-            </FlexWrapper>
+            <FlexWrapper justify={"space-between"} align={"start"} direction={"column"} gap={"15px"}>
+                <ProgressBarTitle>
+                       <Title>{props.languageName}</Title>
+                        <Subtitle>{props.quality}</Subtitle>
+                </ProgressBarTitle>
                 <LinearProgressBar text={props.quality}/>
+            </FlexWrapper>
         </StyleLanguage>
     );
 };
 const StyleLanguage =styled.div`
     display: flex;
     flex-direction: column;
-    padding-top: 27px;
+    padding-top: 35px;
     `
-const LanguageName =styled.div`
+const ProgressBarTitle =styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    // как выровнять subtitle по уровню линейного прогрессбара
+`
+const Title = styled.div`
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 0.05em;
- `
+`
 
-
+const Subtitle = styled.div`
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    
+`
 
 

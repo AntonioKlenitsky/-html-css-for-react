@@ -13,7 +13,7 @@ export const Works = () => {
         <StyledWork>
             <Container>
                 <TitleWork> My Work Experiance   </TitleWork>
-                <FlexWrapper justify={"space-between"} wrap={"wrap"} >
+                <FlexWrapper justify={"center"} wrap={"wrap"} gap={"25px"}>
                     <WorkImage id={"1"} src={Image1} companyName={"Armed forces"} jobTitle={"Gunner"} jobTime={"2019-2021"}/>
                     <WorkImage id={"2"} src={Image2} companyName={"BSB Bank"} jobTitle={"Junior Specialist"} jobTime={"2021"}/>
                     <WorkImage id={"3"} src={Image3} companyName={"StroyInvestLeasing LLC"} jobTitle={"Specialist"} jobTime={"2021-2022"}/>

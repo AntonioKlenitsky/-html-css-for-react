@@ -13,7 +13,7 @@ export const Main = () => {
                 <FlexWrapper align={"center"} justify={"space-between"}>
                     <Represent>
                         <MainTitle>Welcome </MainTitle>
-                        <NamePerson>I’m Anton<br/> Klenitsky</NamePerson>
+                        <NamePerson>I’m Anton <br/>Klenitsky</NamePerson>
                         <NameFunction>Frontend Developer</NameFunction>
                         <DownloadButton>Download CV</DownloadButton>
                     </Represent>
@@ -28,7 +28,6 @@ export const Main = () => {
 const SectionMain = styled.section`
 `
 const Represent = styled.div`
-    padding-left: 68px;
     display: flex;
     flex-direction: column;
 `
@@ -50,14 +49,13 @@ const NameFunction = styled.h1`
     padding-bottom: 35px;
 `
 const Photo = styled.img`
-    max-width: 566px;
+    max-width: 630px;
     max-height: 808px;
+    width: 100%;
     object-fit: cover;
-    justify-content: flex-start;
-    position: relative;
-    bottom: 110px;
+    object-position: top;
     padding-right: 100px;
-    z-index: -1;
+    margin-bottom: 110px;
 `
 
 

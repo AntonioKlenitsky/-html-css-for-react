@@ -13,7 +13,7 @@ export const WorkImage = (props:WorkPropsType) => {
         <WorkBlock>
             <Image src={props.src}/>
             <Name>{props.companyName}</Name>
-            <Subtitle>{props.jobTitle}<br/>{props.jobTime}</Subtitle>
+            <Subtitle>{props.jobTitle}<div>{props.jobTime}</div></Subtitle>
         </WorkBlock>
     );
 };
@@ -24,12 +24,11 @@ const WorkBlock = styled.div`
 const Image = styled.img`
     min-height: 452px;
     max-width: 602px;
-    margin-bottom: 15px;
     object-fit: cover;
     transition: 1s;
     &:hover {
-        background: black;
-        opacity: 40%;
+        background-color: black;
+        opacity: 20%;
         transition: 1s;
     }
 `

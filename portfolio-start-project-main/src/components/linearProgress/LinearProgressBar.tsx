@@ -8,30 +8,28 @@ export const LinearProgressBar = ({ text }: LinearProgressBarPropsType) => {
 
     let percentage = 0;
 
-    if (text.includes('Proficient')) {
+    if (text.includes('Fluent')) {
         percentage = 100;
-    } else if (text.includes('Advanced')) {
+    } else if (text.includes('Good')) {
         percentage = 80;
-    } else if (text.includes('Upper-Intermediate')) {
-        percentage = 60;
     } else if (text.includes('Intermediate')) {
-        percentage = 40;
+        percentage = 60;
     }
     const [progress, setProgress] = useState(0);
     useEffect(() => {
         setProgress(percentage);
     }, [percentage]);
-    const dash=(488*progress/100);
+    const dash=(488*progress/100)+"px";
 
     return (
         <div>
             <div
                 style={{
-                    width: (dash)+"px",
+                    width: dash,
                     height: '25px',
                     background: "linear-gradient(90.00deg, rgb(60, 29, 255) 18.628%,rgb(20, 201, 201) 78.883%)",
                     borderRadius: "50px",
-                    transition: "all 1s"
+                    transition: "all 15s"
                 }}
             >
                 {/*<div style={{*/}

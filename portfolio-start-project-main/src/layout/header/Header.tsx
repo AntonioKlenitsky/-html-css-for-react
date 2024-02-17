@@ -8,9 +8,9 @@ export const Header = () => {
     return (
         <StyledHeader>
             <Container>
-                <FlexWrapper justify={'space-between'}   >
+                <FlexWrapper  justify={'space-between'} align={"center"}    >
                     <StyledLogo>
-                    Anton Klenitsky
+                        <a href="">Anton Klenitsky</a>
                     </StyledLogo>
                     <Menu></Menu>
                 </FlexWrapper>
@@ -20,13 +20,20 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header`
-   background-color: transparent;
-    padding: 70px 0 0 0;
-
+    background-color: #1f1f1fcf;
+    padding: 45px 0 35px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
 `
-const StyledLogo = styled.span`
-    padding-left: 48px;
+const StyledLogo = styled.button`
+    color: white;
     font-size: 32px;
     font-weight: 400;
     font-family: Alex Brush, sans-serif;
+    a {
+        top: 0;
+        left: 0;
+        scroll-behavior: smooth;
+    }
     `
