@@ -41,11 +41,14 @@ background-color: rgb(43, 42, 42);
 `
 const StylePhoto = styled.div`
     width: 50%;
-    padding-left: 100px;
+    max-width:607px;
+    max-height:506px;
 `
 const Photo = styled.img`
-    max-width:470px;
-    max-height:500px;
+    max-width: 348px;
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
 `
 const StyleInfo = styled.div`
     max-width: 521px;
