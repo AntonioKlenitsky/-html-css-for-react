@@ -1,12 +1,12 @@
 import React,{useEffect, useState} from "react";
 
 
-type CircularProgressPropsType = {
+type CircularProgressMobilePropsType = {
     size: string;
     strokeWidth: string;
     percentage: number;
 }
-export const CircularProgress = ({ size, strokeWidth, percentage}: CircularProgressPropsType) => {
+export const CircularProgressMobile = ({ size, strokeWidth, percentage}: CircularProgressMobilePropsType) => {
     const [progress, setProgress] = useState(0);
     useEffect(() => {
         setProgress(percentage);
@@ -39,7 +39,7 @@ export const CircularProgress = ({ size, strokeWidth, percentage}: CircularProgr
                 strokeDasharray={`${dash}, ${circumference - dash}`}
 
                 style={{
-                    transition: "all 10s",
+                    transition: "all 15s",
             }}
 
             />
@@ -52,12 +52,12 @@ export const CircularProgress = ({ size, strokeWidth, percentage}: CircularProgr
             <text
                 fill="rgb(255, 255, 255)"
                 fontFamily="Poppins"
-                fontSize="57px"
+                fontSize="20px"
                 fontWeight="600"
                 letterSpacing="0.05em"
                 x="50%"
                 y="50%"
-                dy="20px"
+                dy="10px"
                 textAnchor="middle">
                 {`${percentage}`}
             </text>

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {Icon} from "../../../../../components/icon/Icon";
 import {FlexWrapper} from "../../../../../components/FlexWrapper";
+import {font} from "../../../../../styles/Common";
 
 
 
@@ -50,16 +51,18 @@ const StyleIcon = styled.div`
 const StyleInfo=styled.div`
     `
 const EstablishmentName =styled.div`
-    font-size: 30px;
-    font-weight: 600;
+    ${font({ family:"'Poppins', sans-serif", weight: 600, Fmax:30, Fmin:16})}
+    //font-size: 30px;
+    //font-weight: 600;
     letter-spacing: 0.05em;
     `
 const InfoWrapper =styled.div`
+    ${font({ family:"'Poppins', sans-serif", weight: 300, Fmax:18, Fmin:10})}
     display: flex;
     flex-direction: row;
     gap: 16px;
-    font-size: 18px;
-    font-weight: 300;
+    //font-size: 18px;
+    //font-weight: 300;
     letter-spacing: 0.05em;
     color: rgb(227, 225, 225);
     `

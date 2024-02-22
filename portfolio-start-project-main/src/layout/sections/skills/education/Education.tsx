@@ -5,6 +5,7 @@ import styled from "styled-components";
 import {Container} from "../../../../components/Container";
 import {Language} from "./laguages/Language";
 import {Study} from "./studies/Study";
+import {theme} from "../../../../styles/Theme";
 
 
 export const Education = () => {
@@ -35,11 +36,10 @@ export const Education = () => {
 };
 
 const SectionEducation = styled.div`
-    padding-bottom: 120px;
 `
 const StyleEducation = styled.div`
     width: 490px;
 `
 const StyleStudies = styled.div`
-
+    padding-bottom: 120px;
 `

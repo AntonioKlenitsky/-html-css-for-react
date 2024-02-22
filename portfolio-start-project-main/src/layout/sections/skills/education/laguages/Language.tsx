@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {FlexWrapper} from "../../../../../components/FlexWrapper";
 import {LinearProgressBar} from "../../../../../components/linearProgress/LinearProgressBar";
+import {font} from "../../../../../styles/Common";
 
 
 
@@ -15,7 +16,7 @@ export const Language = (props:LanguagePropsType) => {
             <FlexWrapper justify={"space-between"} align={"start"} direction={"column"} gap={"15px"}>
                 <ProgressBarTitle>
                        <Title>{props.languageName}</Title>
-                        <Subtitle>{props.quality}</Subtitle>
+                        {/*<Subtitle>{props.quality}</Subtitle>*/}
                 </ProgressBarTitle>
                 <LinearProgressBar text={props.quality}/>
             </FlexWrapper>
@@ -34,14 +35,16 @@ const ProgressBarTitle =styled.div`
     // как выровнять subtitle по уровню линейного прогрессбара
 `
 const Title = styled.div`
-    font-size: 30px;
-    font-weight: 600;
+    ${font({ family:"'Poppins', sans-serif", weight: 600, Fmax:30, Fmin:18})}
+    //font-size: 30px;
+    //font-weight: 600;
     letter-spacing: 0.05em;
 `
 
 const Subtitle = styled.div`
-    font-size: 15px;
-    font-weight: 600;
+    ${font({ family:"'Poppins', sans-serif", weight: 600, Fmax:15, Fmin:9})}
+    //font-size: 15px;
+    //font-weight: 600;
     letter-spacing: 0.05em;
     
 `
