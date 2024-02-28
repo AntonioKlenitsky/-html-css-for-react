@@ -30,10 +30,11 @@ const hellos = [1, 2, 3]
 export const Cards = () => {
     return (
     <>
-        {cardData.map((c, index) => <Card key={index}
-                                          title={c.title}
-                                          text={c.text}
-                                          imgSrc={c.imgSrc}/>)}
+        {cardData.map((c, index) =>
+            <Card key={index}
+                  title={c.title}
+                  text={c.text}
+                  imgSrc={c.imgSrc}/>)}
 
         {
             hellos.map((a, index)=>{
